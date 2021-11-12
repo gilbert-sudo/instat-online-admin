@@ -1,7 +1,10 @@
 <?php
  function bonjour()
  {
-    echo"hello world";
+    $andera = "hello world";
+    return $andera;
  }
- bonjour();
+
+ echo bonjour();
+
 ?>

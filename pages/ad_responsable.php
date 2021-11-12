@@ -168,9 +168,9 @@
                   </div>
 
                   <div style="margin-top: 60px; margin-left:3px;">
-                    <button type="submit" class="btn btn-primary" name="envoyer">Publier</button><br><br>
-                    <?php include '../php/ad responsable.php'; ?>
-                    <?php include '../php/error.php'; ?>
+                    <button type="submit" class="btn btn-primary" name="envoyer">Ajouter</button><br><br>
+                    <?php include '../php/error.php';
+                    include '../php/add-categories.php';?>
                   </div>
 
                 </div>
